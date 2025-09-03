@@ -17,7 +17,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <Box sx={{ py: { xs: 2, md: 6 }, maxWidth: 1100, mx: "auto" }}>
+    <Box sx={{ py: { xs: 2, md: 6 }, px: { xs: 2, md: 0 }, maxWidth: 1100, mx: "auto" }}>
       <Typography
         variant="h3"
         sx={{ fontWeight: 900, color: theme.colors.textLight, mb: 4 }}
@@ -28,7 +28,7 @@ export default function Projects() {
         variant="body1"
         sx={{ color: theme.colors.secondaryText, mb: 4 }}
       >
-        A collection of my projects showcasing my skills and technologies I work with.
+        A collection of my projects showcasing my skills and the technologies I work with.
       </Typography>
       {loading
         ? Array.from({ length: 2 }).map((_, idx) => (
