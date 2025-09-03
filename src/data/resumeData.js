@@ -1,0 +1,105 @@
+const resumeData = {
+  skills: {
+    languages: [
+      "JavaScript",
+      "TypeScript",
+      "SQL",
+      "HTML",
+      "CSS",
+    ],
+    frameworks_Libraries: [
+      "React",
+      "Vue.js",
+      "Angular",
+      "AngularJS",
+      "Node.js",
+      "Redux",
+      "Vuex",
+      "Vuetify",
+      "Bootstrap", 
+      "Material Design", 
+      "Tailwind",
+    ],
+    databases: ["MySQL", "MongoDB",],
+    devops: [
+      "Git",
+      "TFS",
+      "Docker",
+      "CI/CD",
+    ],
+    collaboration: ["Scrum/Agile", "Jira", "Redmine", "Slack", "Figma"],
+  },
+  experience: [
+    {
+      companyKey: "LXT",
+      roleKey: "Senior Front End Developer (React)",
+      periodKey: "March 2023 – Present | Mississauga, ON ",
+      descriptionKeys: [
+        "Leads the design and implementation of the front-end architecture using React.js and Redux, delivering a scalable, maintainable, and high-performance web application.",
+        "Elevates code quality and delivery by introducing structured code reviews and establishing a suite of unit tests powered by Jest and React Testing Library, significantly reducing regression issues and enhancing reliability.",
+        "Supervises a team of 3 front-end developers, providing technical guidance, conducting code reviews, prioritizing feature development, bug resolution, and ensuring open communication within the team.",
+        "Monitors and prioritizes new issues and requests from various stakeholders, including community managers and customer support teams, ensuring timely resolution and aligning outcomes with user needs.",
+        "Contributes to roadmap discussions and sprint planning by evaluating technical feasibility, estimating effort, and aligning development priorities with business objectives.",
+        "Stabilized a delayed project by introducing end-to-end testing infrastructure, staging integration, feature development, and improved team communication, resulting in a fully functional launch within 3 months.",
+        "Oversaw performance optimization of the marketplace platform by implementing bundle refinements, lazy loading, virtualization for large data sets, and state management improvements, achieving a 30% reduction in load time and enhanced user responsiveness.",
+        "Created comprehensive documentation covering the codebase, deployment processes, and application architecture to support onboarding and foster knowledge sharing within the team.",
+      ],
+    },
+    {
+      companyKey: "AvaTrade",
+      roleKey: "Front End Developer",
+      periodKey: "June 2018 – March 2023 | Israel ",
+      descriptionKeys: [
+        "Maintained and optimized a legacy AngularJS codebase while executing a gradual migration to Vue.js, ensuring uninterrupted functionality, continuous delivery of new features, and minimal disruption during the transition.",
+        "Developed a generic WhiteLabel ecosystem, enabling effective customer-to-platform interactions and improving scalability and integration efficiency across multiple client platforms.",
+        "Built internal tools and custom widgets for the marketing department, automating workflows and enhancing team efficiency.",
+        "Integrated and tested third-party services (e.g., tracking and analytics) and performed troubleshooting, ensuring system reliability, functionality, and seamless cross-platform performance.",
+        "Partnered with product managers, UI designers, QA teams, and backend developers to define acceptance criteria, enhance automated testing coverage, and accelerate reliable software releases.",
+        "Collaborated closely with product managers and team leads to plan and execute the migration timeline, delivering a modern Vue.js application with improved responsiveness, faster load times, full desktop and mobile compatibility, and enhanced state management with Vuex, resulting in a more maintainable, efficient, and scalable front-end application.",
+      ],
+    },
+    {
+      companyKey: "ironSource (acquired by Unity)",
+      roleKey: "Front End Developer",
+      periodKey: "February 2014 – July 2018 | Israel",
+      descriptionKeys: [
+        "Developed and maintained a comprehensive, web-based ad platform admin application, enabling internal teams to efficiently manage ad campaigns, optimize ad delivery, and improve platform operations.",
+        "Designed intuitive, responsive interfaces with Angular, HTML5, and modern CSS, enhancing usability, functionality, and overall user experience.",
+        "Integrated third-party APIs for ad tracking and analytics, improving data accuracy and supporting business teams in making data-driven decisions with confidence.",
+        "Performed comprehensive testing, including unit, integration, and end-to-end (e2e) testing, to enhance code reliability, maintain quality, reduce defects, and ensure stable deployments.",
+        "Collaborated closely across business, product, and R&D teams to translate high-level goals into technical requirements, delivering scalable UI features that align with strategic business goals.",
+      ],
+    },
+    {
+      companyKey: "AfterDownload Ltd.",
+      roleKey: "QA Engineer",
+      periodKey: "April 2011 – February 2014 | Israel ",
+      descriptionKeys: [
+        "Tested ad-network functionality across web platforms, thoroughly verifying monetization flows throughout the download funnel to ensure system reliability, data accuracy, and optimal CPC performance.",
+        "Planned, executed, and maintained test suites, including acceptance, manual, and automated tests, across multiple environments to reliably catch regressions and validate new feature releases.",
+        "Built and optimized responsive landing pages using HTML and CSS, ensuring cross-browser and cross-device compatibility, seamless load performance, and an optimal user experience.",
+        "Collaborated with cross-functional teams, including product managers and developers, to analyze business and functional requirements, define test coverage, and ensure alignment with client expectations",
+      ],
+    },
+  ],
+  education: [
+    {
+      degreeKey: ".NET Programming Certification",
+      institutionKey: "John Bryce College, Israel",
+      periodKey: "2011",
+    },
+    {
+      degreeKey: "Bachelor’s Degree in Geography and Environment",
+      institutionKey: "Bar-Ilan University, Israel",
+      periodKey: "2009",
+    },
+  ],
+  skillsSoft: [
+    "Leadership",
+    "Team-building",
+    "Mentoring",
+    "Adaptability",
+    "Communication",
+  ],
+};
+export default resumeData;
