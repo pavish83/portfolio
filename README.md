@@ -2,7 +2,7 @@
 
 ## 🌐 Live Demo
 
-🚀 Explore the live portfolio: [my-portfolio](https://portfolio-pv.vercel.app/)
+🚀 Explore the live portfolio: [my-portfolio](https://my-portfolio-pv.vercel.app/)
 
 This project is my personal **portfolio website**, designed to professionally showcase my skills, experience, and projects as a **Senior Frontend Developer**.  
 Built with **React, Material-UI, Framer Motion**.
