@@ -144,46 +144,6 @@ export default function Resume() {
                     gap: 1,
                   }}
                 >
-                  <FaDownload style={{ marginRight: 8 }} />
-                  Download PDF
-                </Box>
-              }
-              onClick={() =>
-                window.open("/Resume - Pavel Vishnepolsky.pdf", "_blank")
-              }
-              variant="primary"
-              size={"sm"}
-              download={true}
-            />
-            <AppButton
-              label={
-                <Box
-                  sx={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    gap: 1,
-                  }}
-                >
-                  <FaGithub style={{ marginRight: 8 }} /> GitHub
-                </Box>
-              }
-              onClick={() =>
-                window.open("https://github.com/pavish83", "_blank")
-              }
-              variant="secondary"
-              size={"sm"}
-            />
-            <AppButton
-              label={
-                <Box
-                  sx={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    gap: 1,
-                  }}
-                >
                   <FaLinkedin />
                   LinkedIn
                 </Box>
@@ -204,11 +164,12 @@ export default function Resume() {
                     gap: 1,
                   }}
                 >
-                  <FaEnvelope />
-                  Email
+                  <FaGithub style={{ marginRight: 8 }} /> GitHub
                 </Box>
               }
-              onClick={() => window.open('mailto:pavish83@gmail.com')}
+              onClick={() =>
+                window.open("https://github.com/pavish83", "_blank")
+              }
               variant="secondary"
               size={"sm"}
             />

@@ -196,6 +196,12 @@ export default function Home() {
                   size={"sm"}
                   onClick={() => navigate("/resume")}
                 />
+                <AppButton
+                  label="Contact"
+                  variant="muted"
+                  size={"sm"}
+                  onClick={() => navigate("/contact")}
+                />
               </Box>
             </Stack>
           </Box>

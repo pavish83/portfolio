@@ -160,6 +160,23 @@ const AppNavbar = () => {
                       }}
                     />
                   </ListItem>
+                   <ListItem
+                    button
+                    component={Link}
+                    to="/contact"
+                    onClick={() => setDrawerOpen(false)}
+                  >
+                    <ListItemText
+                      primary="Contact"
+                      sx={{
+                        color:
+                          selectedRoute === "/contact"
+                            ? theme.colors.primary
+                            : theme.colors.textLight,
+                        textAlign: "left",
+                      }}
+                    />
+                  </ListItem>
                 </List>
               </Box>
             </Drawer>
@@ -208,6 +225,19 @@ const AppNavbar = () => {
                   }}
                 >
                   Resume
+                </Button>
+                <Button
+                  component={Link}
+                  to="/contact"
+                  sx={{
+                    color:
+                      selectedRoute === "/contact"
+                        ? theme.colors.primary
+                        : theme.colors.textLight,
+                    textTransform: "none",
+                  }}
+                >
+                  Contact
                 </Button>
               </>
             </>

@@ -1,9 +1,7 @@
 import { Box, Stack, IconButton, Typography, Tooltip } from "@mui/material";
 import appTheme from "../../styles/theme";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { useThemeMode } from "../../context/ThemeContext";
-
-const CONTACT_EMAIL = "pavish83@gmail.com";
 
 export default function Footer() {
   const { mode } = useThemeMode();
@@ -33,17 +31,6 @@ export default function Footer() {
           © {year} All rights reserved. Pavel Vishnepolsky
         </Typography>
         <Stack direction="row" spacing={1}>
-          <Tooltip title="GitHub">
-            <IconButton
-              href="https://github.com/pavish83"
-              target="_blank"
-              rel="noopener"
-              sx={{ color: theme.colors.textMuted, fontSize: 22 }}
-              aria-label="GitHub"
-            >
-              <FaGithub />
-            </IconButton>
-          </Tooltip>
           <Tooltip title="LinkedIn">
             <IconButton
               href="https://www.linkedin.com/in/pavel-vishnepolsky-142b63138/"
@@ -55,13 +42,15 @@ export default function Footer() {
               <FaLinkedin />
             </IconButton>
           </Tooltip>
-          <Tooltip title={CONTACT_EMAIL}>
+          <Tooltip title="GitHub">
             <IconButton
-              href={`mailto:${CONTACT_EMAIL}`}
+              href="https://github.com/pavish83"
+              target="_blank"
+              rel="noopener"
               sx={{ color: theme.colors.textMuted, fontSize: 22 }}
-              aria-label="Email"
+              aria-label="GitHub"
             >
-              <FaEnvelope />
+              <FaGithub />
             </IconButton>
           </Tooltip>
         </Stack>

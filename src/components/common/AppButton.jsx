@@ -10,6 +10,7 @@ const AppButton = ({
   size,
   fullWidth = false,
   download = false,
+  type = "button"
 }) => {
   const { mode } = useThemeMode();
   const theme = mode === "dark" ? appTheme.dark : appTheme.light;
@@ -73,6 +74,7 @@ const AppButton = ({
       variant="contained"
       fullWidth={fullWidth}
       download={download}
+      type={type}
     >
       {label}
     </Button>

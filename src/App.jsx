@@ -2,6 +2,7 @@ import AppRouter from "./AppRouter";
 import { Container, Paper } from "@mui/material";
 import appTheme from "./styles/theme";
 import AppNavbar from "./components/common/AppNavbar";
+import { SnackbarProvider } from 'notistack';
 import { useThemeMode } from "./context/ThemeContext";
 import ScrollToTop from "./components/common/ScrollToTop";
 import Footer from "./components/common/Footer";
@@ -29,8 +30,15 @@ function App() {
         }}
       >
         
+          <SnackbarProvider
+            anchorOrigin={{
+              vertical: "bottom",
+              horizontal: "center",
+            }}
+        >
           <AppRouter />
           <ScrollToTop />
+        </SnackbarProvider>
       </Container>
       <Footer />
     </Paper>
